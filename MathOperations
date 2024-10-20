@@ -1,0 +1,11 @@
+public class MathOperations {
+    public static void main(String[] args) {
+        Integer number = -16;
+        Double powervalue = 2.0;
+        int absolutevalue = Math.abs(number);
+        double k = Math.sqrt(absolutevalue); 
+        Double o = Math.pow(absolutevalue, powervalue);
+        System.out.println(absolutevalue + " raised to power " + powervalue + " is " + o);
+        System.out.println("Square root of " + absolutevalue + " is " + k);
+    }
+}

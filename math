@@ -1,0 +1,10 @@
+public class math{
+    public static void main(String[] args){
+        Integer number = -16;
+        Double powervalue=2.0;
+        int absolutevalue=Math.abs(number);
+        int k= Math.sqrt(absolutevalue);
+        Double o= Math.pow(absolutevalue,powervalue);
+        System.out.println(absolutevalue+" raised to power "+powervalue+" is "+ k);
+    }
+} 
