@@ -7,11 +7,11 @@ public class Even {
             }
         }
 
-        int[] reasult = new int[odd]; // Move array declaration here
+        int[] reasult = new int[odd];
         int z = 0;
         for (int i = 0; i < k.length; i++) {
             if (k[i] % 2 != 0) {
-                reasult[z] = k[i]; // Corrected assignment
+                reasult[z] = k[i];
                 z++;
             }
         }
